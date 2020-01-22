@@ -13,6 +13,7 @@ public class TestLog {
 		l.warn("WARN MSG");
 		l.error("ERROR MSG");
 		l.fatal("FATAL MSG");
+		
 		try {
 			TestLog t=new TestLog();
 			t.devide();
